@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+:root{
+    --heading:'Montserrat','sans-serif';
+}
+body{
+    font-family:'Raleway','sans-serif';
+    background: #fff;
+}
+/*глобальне стилізування*/
+img{
+    width:100%;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+hr{
+    width: 95vw;
+    margin: 0 auto;
+}
+/*header*/
+.top-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: #252525;
+}
