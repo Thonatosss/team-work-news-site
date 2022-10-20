@@ -32,4 +32,35 @@ hr{
     align-items: center;
     margin: 0 auto;
     background: #252525;
+    color: #fff;
+    padding: 20px 30px;
+}
+.top-head .fas{
+    font-size: 2rem;
+    cursor: pointer;
+}
+/*js related styling*/
+.times-btn{
+display: none;
+}
+.nav-bar{
+    background: #333;
+    /*
+    height:0;
+    overflow:hidden;
+    */
+}
+.show-nav{
+    height: auto;
+
+}
+/*******************/
+.nav-bar ul li{
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+    transition: all 1s ease-in-out;
+}
+.nav-bar ul li:hover{
+    background: #0e0e0e;
 }
