@@ -247,3 +247,19 @@ display: none;
         grid-template-columns: 1fr 2fr;
     }
 }
+/* головне */
+main a{
+    padding: 15px 0;
+    display: block;
+    transition: all 0.5s;
+}
+main span{
+    transition: padding-left 0.5s;
+}
+main a:hover span{
+    padding-left: 5px;
+}
+main a:hover{
+    color: #7ac64d;
+}
+/*до контейнера з ліва main-container-left*/
